@@ -1,0 +1,71 @@
+{
+  "success": true,
+  "case_round": 989,
+  "receiver": 32,
+  "source_hashes_unchanged": {
+    "used_categories.csv": true,
+    "source_rounds.csv": true,
+    "region_shares.csv": true,
+    "all_rounds.csv": true,
+    "full_counterfactual_raw.csv": true,
+    "receiver_utility_raw.csv": true
+  },
+  "numeric_fields_independently_checked": 66,
+  "printed_numeric_labels_checked": 36,
+  "width_inches": 7.16,
+  "height_inches": 7.8999999999999995,
+  "pdf_pages": 1,
+  "pdf_fonts": [
+    {
+      "name": "/ELCOXT+TimesNewRomanPS-BoldMT",
+      "subtype": "/Type0",
+      "embedded_font_bytes": [
+        47868
+      ]
+    }
+  ],
+  "actual_pdf_font_sizes": [
+    8.0,
+    9.0,
+    10.0
+  ],
+  "non_times_bold_fonts": [],
+  "embedded_raster_images": [],
+  "png_dimensions": [
+    3222,
+    3555
+  ],
+  "png_dpi": [
+    450.0118,
+    450.0118
+  ],
+  "text_bbox_count": 120,
+  "clipped_text_count": 0,
+  "text_overlap_count": 0,
+  "capability_colors": [
+    "#0072B2",
+    "#A96300",
+    "#006B55"
+  ],
+  "redundant_encoding": "Capability names, hatches, shapes and direct values; sign heatmap is a separate scalar palette",
+  "context_all_methods": true,
+  "background_n_per_method": 318,
+  "boxplot_whiskers": "all-data minimum/maximum, not95%CI",
+  "main_effect_axis": "linear",
+  "background_axis": "separate symlog, linear +/-1e-6 CE",
+  "visual_inspection": "Passed: final PDF rendered at170dpi and at96dpi (7.16-inch display width); all labels, data values and legends inspected.",
+  "gray_review": "Passed: same96dpi preview converted to grayscale and inspected. Capability names/hatches and utility marker shapes preserve identity; signed heatmap cells retain explicit numeric signs.",
+  "no_new_training": true,
+  "original_figures_unchanged": true,
+  "old_figure_hashes_verified": {
+    "figure_mechanism_case.pdf": true,
+    "figure_mechanism_case.png": true
+  },
+  "tests": "9 passed in0.20s",
+  "matplotlib_warning_fixed": "orientation=horizontal, no deprecated vert parameter",
+  "palette_white_contrast": {
+    "#0072B2": 5.185446345779855,
+    "#A96300": 4.69615925702999,
+    "#006B55": 6.492997632562983
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "shown_classes": [
+    6,
+    14,
+    56,
+    75,
+    89,
+    99
+  ],
+  "heatmap": "SymLogNorm; linear +/-0.001 probability; no clipped values",
+  "font_path": "C:\\Windows\\Fonts\\timesbd.ttf",
+  "font_sizes": [
+    8,
+    9,
+    10
+  ],
+  "palette": [
+    "#0072B2",
+    "#A96300",
+    "#006B55"
+  ],
+  "width_inches": 7.16,
+  "height_inches": 7.9
+}

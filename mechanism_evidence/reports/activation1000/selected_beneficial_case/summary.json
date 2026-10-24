@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "round": 13,
+    "receiver_ids": [
+      37,
+      53,
+      98
+    ],
+    "source_tiers": [
+      1,
+      2
+    ],
+    "source_clients": [
+      41,
+      42,
+      59,
+      71,
+      75,
+      77,
+      78,
+      85,
+      86
+    ],
+    "adjusted_feature_regions": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "feature_union_numel": 6903483,
+    "semantic_classes": [
+      1,
+      5,
+      7,
+      11,
+      19,
+      22,
+      26,
+      27,
+      28,
+      30,
+      33,
+      35,
+      39,
+      42,
+      44,
+      49,
+      50,
+      57,
+      68,
+      69,
+      72,
+      74,
+      75,
+      80,
+      83,
+      87,
+      93,
+      96
+    ],
+    "candidate_counts": {
+      "diagnostic_rounds": 53,
+      "actually_adjusted_rounds": 33,
+      "complete_three_confirmation_receivers": 33,
+      "positive_mean_above_both_controls_at_least_two_positive_receivers": 11,
+      "also_common_classes_for_every_receiver": 7,
+      "strict_beneficial_rounds_both_metrics_all_receivers": 1
+    },
+    "source_sha256": {
+      "full_counterfactual_raw.csv": "7159ed336a9a7dab73b43d0e61c0c29dd48b76b6e54f57b8692694f68a5f681a",
+      "all_rounds.csv": "7495dff97d9fde9c214d20aa30f3e135296e48b44a38a1f0c1f29a5b46accf6a",
+      "source_rounds.csv": "ac49b894d51363b45e6b829f46fcee076c9e2cb46ec06840fbda99d21f017d69",
+      "used_categories.csv": "53e1b5c1aeb6594601b9448b4abf144f790b8e1643bd11c23cc336c245c66668",
+      "region_shares.csv": "7a6a2451c97e404b4460afbeb72e2e8354e3ed57b216393a75b79b1542dc224c",
+      "receiver_utility_raw.csv": "86bd0946638ab136d08ad04fdc317f90e959b49c6d86315fb25918a1a0e16c8e"
+    },
+    "selection_uses_positive_outcomes": true,
+    "selection_rule": "Require actual activation, all three original confirmation Full receivers, common semantic classes for each, and positive V2 utility beating shuffled and L2 controls for EVERY receiver in BOTH class metrics. Choose maximal minimum common-class support; tie: earliest round.",
+    "matching_scope": "All adjusted non-BN feature-region union; whole-Full same-upload aggregate counterfactual. No single-region causal attribution.",
+    "generalization": "Selected beneficial case; not the average1000-round effect or independent confirmation.",
+    "probe_scope": "Original SGD training-side; disjoint from semantic scoring samples, not an SGD holdout.",
+    "adapter_in_decision": false
+  },
+  "equal_receiver_mean_utilities": {
+    "all": {
+      "A07": 0.0,
+      "V2": 7.500762907156992e-05,
+      "no_sm": 0.00013316112955511863,
+      "no_rm": 0.00011736815869027122,
+      "permuted": -7.512820821853339e-05,
+      "A07_L2_matched": -2.2922890639727928e-05
+    },
+    "common": {
+      "A07": 0.0,
+      "V2": 7.82046053144821e-05,
+      "no_sm": 0.0001385854350196188,
+      "no_rm": 0.00012220894848858724,
+      "permuted": -7.672177420720942e-05,
+      "A07_L2_matched": -1.1085139380547412e-05
+    }
+  }
+}

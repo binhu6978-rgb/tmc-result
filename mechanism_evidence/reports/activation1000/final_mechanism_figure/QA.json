@@ -1,0 +1,20 @@
+{
+  "case_round": 989,
+  "receiver": 32,
+  "pdf_width_inches": 7.16,
+  "pdf_height_inches": 6.35,
+  "pdf_pages": 1,
+  "embedded_raster_images": 0,
+  "vector_heatmap": true,
+  "png_dpi": 450,
+  "exact_png_redraw_equal": true,
+  "original_source_files_unchanged": true,
+  "cases_in_background": 318,
+  "diagnostic_rounds": 53,
+  "points_are_not_independent_fl_runs": true,
+  "case_was_outcome_selected": true,
+  "tests": "6 passed in0.07s",
+  "new_training": false,
+  "algorithm_changed": false,
+  "visual_qa": "Final PDF rendered at170dpi and inspected; labels, legends, values and missing Low row readable, no overlap or clipping"
+}

@@ -1,0 +1,265 @@
+{
+  "schema": 1,
+  "source_repository": "binhu6978-rgb/tmc_finish_need",
+  "publication_repository": "binhu6978-rgb/tmc-result",
+  "export_source_head": "3925c064189b29be927116917f7bbad3f0b69a0e",
+  "export_source_branch": "feature/semconsfl-semantic-a07-v2",
+  "selection": "Latest user scope: only the 1000-round Semantic-A07 V2 run and its complete existing diagnostics; no 500-round or other historical run data, no model weights",
+  "snapshots": {
+    "149c6713c339204ad23fe43952350ae2832b3cd0": {
+      "status": "EXPORTED",
+      "files": 160,
+      "manifest": "code_used/149c6713c339204ad23fe43952350ae2832b3cd0/snapshot_manifest.json",
+      "runtime_file_exceptions": []
+    }
+  },
+  "runs": [
+    {
+      "run_id": "v2_active1000_seed1",
+      "algorithm": "Semantic-A07 V2",
+      "rounds": 1000,
+      "seed": 1,
+      "mode": "active",
+      "source_commit": "149c6713c339204ad23fe43952350ae2832b3cd0",
+      "source_directory": "tmp/semantic_activation1000_collected/active/training/a07/active_1000_seed1",
+      "paired_reference_run_id": "",
+      "parent_run_id": "",
+      "completion_marker_present": true,
+      "partition_sha256": "41ab2d3486663ce0100e183ab00565de137f91af07632c236c2ddf60d890ba41",
+      "applied_lambda": 0.2,
+      "runtime_dirty_diff": "NOT_SAVED unless explicit in original manifest",
+      "notes": ""
+    }
+  ],
+  "profiles": [
+    [
+      0.4,
+      2
+    ],
+    [
+      0.4,
+      3
+    ],
+    [
+      0.4,
+      4
+    ],
+    [
+      0.66,
+      2
+    ],
+    [
+      0.66,
+      3
+    ],
+    [
+      0.66,
+      4
+    ],
+    [
+      1.0,
+      2
+    ]
+  ],
+  "population": [
+    40,
+    30,
+    30
+  ],
+  "boundaries": [
+    40,
+    70
+  ],
+  "base_protocol": {
+    "dataset": "CIFAR-100",
+    "classes": 100,
+    "alpha": 0.3,
+    "partition_sha256": "41ab2d3486663ce0100e183ab00565de137f91af07632c236c2ddf60d890ba41",
+    "num_clients": 100,
+    "slots_per_round": 10,
+    "local_epochs": 5,
+    "batch": 50,
+    "optimizer": "SGD",
+    "lr": 0.01,
+    "lr_decay": 0.998,
+    "momentum": 0.5,
+    "weight_decay": 0.0001,
+    "seed": 1,
+    "eval": "Full P6 every round"
+  },
+  "V2": {
+    "score": "task classifier true-class probabilities; Adapter only auxiliary",
+    "d": "max(0,q_post-q_pre)",
+    "a": "max(0,q_post-max_other_past_reference)",
+    "U": "class macro mean(rho*min(d,a))",
+    "lambda_value": 0.2,
+    "BN": "unchanged A07",
+    "classifier": "Native",
+    "first_round": "Native",
+    "semantic_scope": "multi-tier shared feature non-BN regions",
+    "semantic_memory": "past snapshots; robust physical-client class responses then EMA 0.9; commit after aggregation/evaluation",
+    "reliability": "past support/age/stability; min own/reference/current support use coefficient",
+    "missing": "neutral A07; never zero imputation",
+    "probe": "SGD training-side, disjoint from semantic measurement; independent physical receivers; fixed BN batch"
+  },
+  "privacy": "No raw images, sample-index plans, credentials, private filesystem roots or SSH addresses; public copies may have documented literal-only redactions",
+  "runtime_dirty_diff": "NOT_SAVED where absent in original manifest; export-time git status is not runtime status",
+  "no_new_training": true,
+  "no_new_counterfactual_evaluation": true,
+  "checkpoint_policy": "No model weights published, by latest user instruction. All existing checkpoints and verified Full states are inventory-only; originals preserved.",
+  "evidence_limits": [
+    "Single seed1 trajectory, not independent multi-seed evidence",
+    "Probe data disjoint from semantic measurement but still SGD training-side",
+    "Historical upload tensors were not saved; scalar counterfactual outcomes are existing measurements only",
+    "All model weights withheld by user request"
+  ],
+  "published_full_state_exports": [],
+  "run_manifest_files": {
+    "v2_active1000_seed1": [
+      "logs/v2_active1000_seed1/manifest.json"
+    ]
+  },
+  "evaluation_definitions": {
+    "official_performance": {
+      "dataset": "CIFAR-100 official test, 10000 examples",
+      "label_space": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99
+      ],
+      "model": "P6 only",
+      "eval_mode": true,
+      "no_grad": true,
+      "CE": "cross_entropy(reduction=sum)/number_of_examples",
+      "batch_size": "Recorded per-run training_configuration test_bs if present, otherwise bs (128 in formal runs)"
+    },
+    "V2_probes": {
+      "dataset": "original training partition; fixed per-client samples disjoint from semantic measurement, but not SGD-held-out",
+      "definition": "independent_indices(classes=100,samples=2), fixed materialize seed pair500-views, batch50",
+      "CE": "cross_entropy(reduction=none), double scalar accumulation; sample mean or separately reported common-class macro mean",
+      "actual_sample_plan_hash": "NOT_SAVED_IN_SCALAR_RELEASE; do not substitute config hash for sample-plan hash",
+      "paired_batches_identical": true
+    }
+  },
+  "verified_full_states_inventory": [
+    {
+      "run_id": "v2_active1000_seed1",
+      "path": "checkpoints/published_full_states/v2_active1000_seed1_final_full.pt",
+      "source_checkpoint": "runs/semantic_a07_v2_activation1000_seed1_20261023/active/training/a07/active_1000_seed1/recovery_latest.pt",
+      "round": 1000,
+      "sha256": "90b5e468c0bb9bdf09ef45fae72610c17d8a6959162314caf4ad9eb75b71e41f",
+      "tensor_state_sha256": "d0aa6a96a4ce561a3905630a8747b86c7fb12a75c718c971de0f7a1df8fa3f56",
+      "source_tensor_equality_verified": true,
+      "selection": "All three final states; not selected by test score",
+      "contents": "Full tensor state_dict only; no raw images, sample plans, Memory, RNG or private paths",
+      "tensor_count": 65,
+      "parameter_numel": 11424356,
+      "dtypes": [
+        "torch.float32"
+      ],
+      "classifier_shape": [
+        100,
+        512
+      ],
+      "available": "WITHHELD_USER_REQUEST",
+      "reason": "Latest user instruction: do not upload model weights; hashes retained only"
+    }
+  ]
+}

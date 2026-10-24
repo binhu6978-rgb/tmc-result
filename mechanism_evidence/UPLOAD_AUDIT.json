@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "indexed_public_hashes_verified": 375,
+  "source_bytes_or_uncompressed_bytes_verified": 328,
+  "privacy_root_or_token_violations": [],
+  "literal_credential_review_flags": [],
+  "source_syntax_review": [],
+  "eligible_class_records_verified": 27085,
+  "numeric_class_fields_verified": 189595,
+  "current_class_candidates": 230067,
+  "aggregation_rounds": 1000,
+  "active_rounds": 602,
+  "regional_share_rows_verified": 10420,
+  "same_input_full_cases": 318,
+  "fixed_diagnostic_rounds": 53,
+  "full_weight_files": 0,
+  "pdf_text_privacy_checks": 8,
+  "no_new_training": true,
+  "no_new_model_effect_evaluation": true,
+  "model_policy": "No model weights published, per latest user instruction; verified state hashes retained in inventory"
+}

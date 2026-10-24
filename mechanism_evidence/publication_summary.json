@@ -1,0 +1,20 @@
+{
+  "runs": 1,
+  "files": 378,
+  "files_by_extension": {
+    ".csv": 78,
+    ".json": 94,
+    ".md": 22,
+    ".patch": 1,
+    ".txt": 2,
+    ".py": 145,
+    ".gz": 7,
+    ".log": 13,
+    ".pdf": 8,
+    ".png": 8
+  },
+  "bytes": 194007301,
+  "checkpoint_inventory_rows": 5,
+  "published_full_states": 0,
+  "audit_success": true
+}

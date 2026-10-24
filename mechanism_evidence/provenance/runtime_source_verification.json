@@ -1,0 +1,150 @@
+{
+  "runtime_source_records_inspected": 20,
+  "runtime_source_records_verified": 20,
+  "statuses": {
+    "FROZEN_COMMIT_BLOB_MATCH": 20
+  },
+  "all_recorded_hashes_resolved": true,
+  "records": [
+    {
+      "run_id": "v2_active1000_seed1",
+      "file": "main_fed_ori.py",
+      "source_sha256": "2c63e10b02726a25cc28d15b84499f0f113a6c04de089bc645e17ea92ef8d5d6",
+      "status": "FROZEN_COMMIT_BLOB_MATCH",
+      "public_path": "code_used/149c6713c339204ad23fe43952350ae2832b3cd0/main_fed_ori.py"
+    },
+    {
+      "run_id": "v2_active1000_seed1",
+      "file": "Algorithm/Training_AdaptiveFL.py",
+      "source_sha256": "7ae50d253b4a665e3fa5aebc812d028697eae390bb1d7a0caf800503528b7b3f",
+      "status": "FROZEN_COMMIT_BLOB_MATCH",
+      "public_path": "code_used/149c6713c339204ad23fe43952350ae2832b3cd0/Algorithm/Training_AdaptiveFL.py"
+    },
+    {
+      "run_id": "v2_active1000_seed1",
+      "file": "models/Update.py",
+      "source_sha256": "6a88809934ed2b5ec7ac067ee1892e369836b3b6dd5f295e0756e2bd5941d985",
+      "status": "FROZEN_COMMIT_BLOB_MATCH",
+      "public_path": "code_used/149c6713c339204ad23fe43952350ae2832b3cd0/models/Update.py"
+    },
+    {
+      "run_id": "v2_active1000_seed1",
+      "file": "models/Fed.py",
+      "source_sha256": "255ac2cb27f0855de9b93d6e74cb8b0f6ef06d5ecb771530464f529e455cba0b",
+      "status": "FROZEN_COMMIT_BLOB_MATCH",
+      "public_path": "code_used/149c6713c339204ad23fe43952350ae2832b3cd0/models/Fed.py"
+    },
+    {
+      "run_id": "v2_active1000_seed1",
+      "file": "models/resnet.py",
+      "source_sha256": "eab9d12f938040108ae772ff5422933e03551de382d3c2564a33cd99bc177ea5",
+      "status": "FROZEN_COMMIT_BLOB_MATCH",
+      "public_path": "code_used/149c6713c339204ad23fe43952350ae2832b3cd0/models/resnet.py"
+    },
+    {
+      "run_id": "v2_active1000_seed1",
+      "file": "models/test.py",
+      "source_sha256": "3b85d5781ec7f5d82eca34ab9e0deb2291a366e69de6382e7cd3beb700758a72",
+      "status": "FROZEN_COMMIT_BLOB_MATCH",
+      "public_path": "code_used/149c6713c339204ad23fe43952350ae2832b3cd0/models/test.py"
+    },
+    {
+      "run_id": "v2_active1000_seed1",
+      "file": "utils/options.py",
+      "source_sha256": "44610f5f2cd0a81a3385702c187a34a9419fd7fbe9183d5b0bd93d92bca4b5c6",
+      "status": "FROZEN_COMMIT_BLOB_MATCH",
+      "public_path": "code_used/149c6713c339204ad23fe43952350ae2832b3cd0/utils/options.py"
+    },
+    {
+      "run_id": "v2_active1000_seed1",
+      "file": "adapterfl_methods.py",
+      "source_sha256": "babdd758b96d9f613f0837a964b91ce56d5bdd7888cda1adb3481ed0d40eeacf",
+      "status": "FROZEN_COMMIT_BLOB_MATCH",
+      "public_path": "code_used/149c6713c339204ad23fe43952350ae2832b3cd0/adapterfl_methods.py"
+    },
+    {
+      "run_id": "v2_active1000_seed1",
+      "file": "utils/get_datatset_new.py",
+      "source_sha256": "72eb44f888133b60fd4aa86999bdfc36cc95adb42248ee56df4801a15d55afce",
+      "status": "FROZEN_COMMIT_BLOB_MATCH",
+      "public_path": "code_used/149c6713c339204ad23fe43952350ae2832b3cd0/utils/get_datatset_new.py"
+    },
+    {
+      "run_id": "v2_active1000_seed1",
+      "file": "utils/set_seed.py",
+      "source_sha256": "60148d2a912a3889e06eac3765be4d65e66c19ef7d661057cc5fa5679358d866",
+      "status": "FROZEN_COMMIT_BLOB_MATCH",
+      "public_path": "code_used/149c6713c339204ad23fe43952350ae2832b3cd0/utils/set_seed.py"
+    },
+    {
+      "run_id": "v2_active1000_seed1",
+      "file": "utils/reproducibility.py",
+      "source_sha256": "64d74705285c3b409e895fe94ac478f062f07c5bc74fb55f308e0737ac471323",
+      "status": "FROZEN_COMMIT_BLOB_MATCH",
+      "public_path": "code_used/149c6713c339204ad23fe43952350ae2832b3cd0/utils/reproducibility.py"
+    },
+    {
+      "run_id": "v2_active1000_seed1",
+      "file": "native_group_aggregation.py",
+      "source_sha256": "becc61c9c392cb7c2b88853de73d9dcbe74d2566c363ae611e4eae053ea83876",
+      "status": "FROZEN_COMMIT_BLOB_MATCH",
+      "public_path": "code_used/149c6713c339204ad23fe43952350ae2832b3cd0/native_group_aggregation.py"
+    },
+    {
+      "run_id": "v2_active1000_seed1",
+      "file": "semcons_scope.py",
+      "source_sha256": "05241c654b9612fe3a960abf94e9f682d9972b430a17106c47f72a5aac3f0cda",
+      "status": "FROZEN_COMMIT_BLOB_MATCH",
+      "public_path": "code_used/149c6713c339204ad23fe43952350ae2832b3cd0/semcons_scope.py"
+    },
+    {
+      "run_id": "v2_active1000_seed1",
+      "file": "tools/run_evidence_candidate.py",
+      "source_sha256": "b746ade6fc04041cb8b404d03957260b5a7aae4b6292e93d27e48976d4faf6c4",
+      "status": "FROZEN_COMMIT_BLOB_MATCH",
+      "public_path": "code_used/149c6713c339204ad23fe43952350ae2832b3cd0/tools/run_evidence_candidate.py"
+    },
+    {
+      "run_id": "v2_active1000_seed1",
+      "file": "configs/native_groups10_400.json",
+      "source_sha256": "76b97f16f719427baaa38d07e6eef20b7b2240f427d68a81376f7d3134ecdb23",
+      "status": "FROZEN_COMMIT_BLOB_MATCH",
+      "public_path": "code_used/149c6713c339204ad23fe43952350ae2832b3cd0/configs/native_groups10_400.json"
+    },
+    {
+      "run_id": "v2_active1000_seed1",
+      "file": "capability_final40.py",
+      "source_sha256": "fef87dc14ba7e728b004c0a00e166f6edd5080ddd04c55d2d222b7abced7ed56",
+      "status": "FROZEN_COMMIT_BLOB_MATCH",
+      "public_path": "code_used/149c6713c339204ad23fe43952350ae2832b3cd0/capability_final40.py"
+    },
+    {
+      "run_id": "v2_active1000_seed1",
+      "file": "tools/run_final40_job.py",
+      "source_sha256": "91f18b20d280c72e87220d3c22c0107882357123cfe99b416486b8d76681ec28",
+      "status": "FROZEN_COMMIT_BLOB_MATCH",
+      "public_path": "code_used/149c6713c339204ad23fe43952350ae2832b3cd0/tools/run_final40_job.py"
+    },
+    {
+      "run_id": "v2_active1000_seed1",
+      "file": "tools/final40_data.py",
+      "source_sha256": "5c3bc543119a1dbabfb71ff1775e9e0f9ba8e3bb7b5a58dc0c3861c2e25c0cde",
+      "status": "FROZEN_COMMIT_BLOB_MATCH",
+      "public_path": "code_used/149c6713c339204ad23fe43952350ae2832b3cd0/tools/final40_data.py"
+    },
+    {
+      "run_id": "v2_active1000_seed1",
+      "file": "configs/capability_final40_400.json",
+      "source_sha256": "059381d0e07ace2eea48fffe69a45df766d10e9b1567acd07a58ff32b81f3de7",
+      "status": "FROZEN_COMMIT_BLOB_MATCH",
+      "public_path": "code_used/149c6713c339204ad23fe43952350ae2832b3cd0/configs/capability_final40_400.json"
+    },
+    {
+      "run_id": "v2_active1000_seed1",
+      "file": "configs/g03_refinements10_400.json",
+      "source_sha256": "518631efafb30f0cba10d99454436198b3a9fb31849685332aa49d5e63593f7e",
+      "status": "FROZEN_COMMIT_BLOB_MATCH",
+      "public_path": "code_used/149c6713c339204ad23fe43952350ae2832b3cd0/configs/g03_refinements10_400.json"
+    }
+  ]
+}

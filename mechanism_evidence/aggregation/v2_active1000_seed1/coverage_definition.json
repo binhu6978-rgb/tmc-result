@@ -1,0 +1,3028 @@
+{
+  "profiles": [
+    [
+      0.4,
+      2
+    ],
+    [
+      0.4,
+      3
+    ],
+    [
+      0.4,
+      4
+    ],
+    [
+      0.66,
+      2
+    ],
+    [
+      0.66,
+      3
+    ],
+    [
+      0.66,
+      4
+    ],
+    [
+      1.0,
+      2
+    ]
+  ],
+  "regions": [
+    {
+      "id": 0,
+      "profiles": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cells": [
+        {
+          "key": "features.0.0.weight",
+          "bounds": [
+            [
+              0,
+              64
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "numel": 1728
+        },
+        {
+          "key": "features.0.1.weight",
+          "bounds": [
+            [
+              0,
+              64
+            ]
+          ],
+          "numel": 64
+        },
+        {
+          "key": "features.0.1.bias",
+          "bounds": [
+            [
+              0,
+              64
+            ]
+          ],
+          "numel": 64
+        },
+        {
+          "key": "features.1.0.left1.0.weight",
+          "bounds": [
+            [
+              0,
+              96
+            ],
+            [
+              0,
+              64
+            ]
+          ],
+          "numel": 55296
+        },
+        {
+          "key": "features.1.0.left1.1.weight",
+          "bounds": [
+            [
+              0,
+              96
+            ]
+          ],
+          "numel": 96
+        },
+        {
+          "key": "features.1.0.left1.1.bias",
+          "bounds": [
+            [
+              0,
+              96
+            ]
+          ],
+          "numel": 96
+        },
+        {
+          "key": "features.1.0.left2.0.weight",
+          "bounds": [
+            [
+              0,
+              96
+            ],
+            [
+              0,
+              96
+            ]
+          ],
+          "numel": 82944
+        },
+        {
+          "key": "features.1.0.left2.1.weight",
+          "bounds": [
+            [
+              0,
+              96
+            ]
+          ],
+          "numel": 96
+        },
+        {
+          "key": "features.1.0.left2.1.bias",
+          "bounds": [
+            [
+              0,
+              96
+            ]
+          ],
+          "numel": 96
+        },
+        {
+          "key": "features.1.0.shortcut.0.weight",
+          "bounds": [
+            [
+              0,
+              96
+            ],
+            [
+              0,
+              64
+            ]
+          ],
+          "numel": 6144
+        },
+        {
+          "key": "features.1.0.shortcut.1.weight",
+          "bounds": [
+            [
+              0,
+              96
+            ]
+          ],
+          "numel": 96
+        },
+        {
+          "key": "features.1.0.shortcut.1.bias",
+          "bounds": [
+            [
+              0,
+              96
+            ]
+          ],
+          "numel": 96
+        },
+        {
+          "key": "features.1.1.left1.0.weight",
+          "bounds": [
+            [
+              0,
+              96
+            ],
+            [
+              0,
+              96
+            ]
+          ],
+          "numel": 82944
+        },
+        {
+          "key": "features.1.1.left1.1.weight",
+          "bounds": [
+            [
+              0,
+              96
+            ]
+          ],
+          "numel": 96
+        },
+        {
+          "key": "features.1.1.left1.1.bias",
+          "bounds": [
+            [
+              0,
+              96
+            ]
+          ],
+          "numel": 96
+        },
+        {
+          "key": "features.1.1.left2.0.weight",
+          "bounds": [
+            [
+              0,
+              96
+            ],
+            [
+              0,
+              96
+            ]
+          ],
+          "numel": 82944
+        },
+        {
+          "key": "features.1.1.left2.1.weight",
+          "bounds": [
+            [
+              0,
+              96
+            ]
+          ],
+          "numel": 96
+        },
+        {
+          "key": "features.1.1.left2.1.bias",
+          "bounds": [
+            [
+              0,
+              96
+            ]
+          ],
+          "numel": 96
+        },
+        {
+          "key": "features.2.0.left1.0.weight",
+          "bounds": [
+            [
+              0,
+              51
+            ],
+            [
+              0,
+              96
+            ]
+          ],
+          "numel": 44064
+        },
+        {
+          "key": "features.2.0.left1.1.weight",
+          "bounds": [
+            [
+              0,
+              51
+            ]
+          ],
+          "numel": 51
+        },
+        {
+          "key": "features.2.0.left1.1.bias",
+          "bounds": [
+            [
+              0,
+              51
+            ]
+          ],
+          "numel": 51
+        },
+        {
+          "key": "features.2.0.left2.0.weight",
+          "bounds": [
+            [
+              0,
+              51
+            ],
+            [
+              0,
+              51
+            ]
+          ],
+          "numel": 23409
+        },
+        {
+          "key": "features.2.0.left2.1.weight",
+          "bounds": [
+            [
+              0,
+              51
+            ]
+          ],
+          "numel": 51
+        },
+        {
+          "key": "features.2.0.left2.1.bias",
+          "bounds": [
+            [
+              0,
+              51
+            ]
+          ],
+          "numel": 51
+        },
+        {
+          "key": "features.2.0.shortcut.0.weight",
+          "bounds": [
+            [
+              0,
+              51
+            ],
+            [
+              0,
+              96
+            ]
+          ],
+          "numel": 4896
+        },
+        {
+          "key": "features.2.0.shortcut.1.weight",
+          "bounds": [
+            [
+              0,
+              51
+            ]
+          ],
+          "numel": 51
+        },
+        {
+          "key": "features.2.0.shortcut.1.bias",
+          "bounds": [
+            [
+              0,
+              51
+            ]
+          ],
+          "numel": 51
+        },
+        {
+          "key": "features.2.1.left1.0.weight",
+          "bounds": [
+            [
+              0,
+              51
+            ],
+            [
+              0,
+              51
+            ]
+          ],
+          "numel": 23409
+        },
+        {
+          "key": "features.2.1.left1.1.weight",
+          "bounds": [
+            [
+              0,
+              51
+            ]
+          ],
+          "numel": 51
+        },
+        {
+          "key": "features.2.1.left1.1.bias",
+          "bounds": [
+            [
+              0,
+              51
+            ]
+          ],
+          "numel": 51
+        },
+        {
+          "key": "features.2.1.left2.0.weight",
+          "bounds": [
+            [
+              0,
+              51
+            ],
+            [
+              0,
+              51
+            ]
+          ],
+          "numel": 23409
+        },
+        {
+          "key": "features.2.1.left2.1.weight",
+          "bounds": [
+            [
+              0,
+              51
+            ]
+          ],
+          "numel": 51
+        },
+        {
+          "key": "features.2.1.left2.1.bias",
+          "bounds": [
+            [
+              0,
+              51
+            ]
+          ],
+          "numel": 51
+        },
+        {
+          "key": "features.3.0.left1.0.weight",
+          "bounds": [
+            [
+              0,
+              102
+            ],
+            [
+              0,
+              51
+            ]
+          ],
+          "numel": 46818
+        },
+        {
+          "key": "features.3.0.left1.1.weight",
+          "bounds": [
+            [
+              0,
+              102
+            ]
+          ],
+          "numel": 102
+        },
+        {
+          "key": "features.3.0.left1.1.bias",
+          "bounds": [
+            [
+              0,
+              102
+            ]
+          ],
+          "numel": 102
+        },
+        {
+          "key": "features.3.0.left2.0.weight",
+          "bounds": [
+            [
+              0,
+              102
+            ],
+            [
+              0,
+              102
+            ]
+          ],
+          "numel": 93636
+        },
+        {
+          "key": "features.3.0.left2.1.weight",
+          "bounds": [
+            [
+              0,
+              102
+            ]
+          ],
+          "numel": 102
+        },
+        {
+          "key": "features.3.0.left2.1.bias",
+          "bounds": [
+            [
+              0,
+              102
+            ]
+          ],
+          "numel": 102
+        },
+        {
+          "key": "features.3.0.shortcut.0.weight",
+          "bounds": [
+            [
+              0,
+              102
+            ],
+            [
+              0,
+              51
+            ]
+          ],
+          "numel": 5202
+        },
+        {
+          "key": "features.3.0.shortcut.1.weight",
+          "bounds": [
+            [
+              0,
+              102
+            ]
+          ],
+          "numel": 102
+        },
+        {
+          "key": "features.3.0.shortcut.1.bias",
+          "bounds": [
+            [
+              0,
+              102
+            ]
+          ],
+          "numel": 102
+        },
+        {
+          "key": "features.3.1.left1.0.weight",
+          "bounds": [
+            [
+              0,
+              102
+            ],
+            [
+              0,
+              102
+            ]
+          ],
+          "numel": 93636
+        },
+        {
+          "key": "features.3.1.left1.1.weight",
+          "bounds": [
+            [
+              0,
+              102
+            ]
+          ],
+          "numel": 102
+        },
+        {
+          "key": "features.3.1.left1.1.bias",
+          "bounds": [
+            [
+              0,
+              102
+            ]
+          ],
+          "numel": 102
+        },
+        {
+          "key": "features.3.1.left2.0.weight",
+          "bounds": [
+            [
+              0,
+              102
+            ],
+            [
+              0,
+              102
+            ]
+          ],
+          "numel": 93636
+        },
+        {
+          "key": "features.3.1.left2.1.weight",
+          "bounds": [
+            [
+              0,
+              102
+            ]
+          ],
+          "numel": 102
+        },
+        {
+          "key": "features.3.1.left2.1.bias",
+          "bounds": [
+            [
+              0,
+              102
+            ]
+          ],
+          "numel": 102
+        },
+        {
+          "key": "features.4.0.left1.0.weight",
+          "bounds": [
+            [
+              0,
+              204
+            ],
+            [
+              0,
+              102
+            ]
+          ],
+          "numel": 187272
+        },
+        {
+          "key": "features.4.0.left1.1.weight",
+          "bounds": [
+            [
+              0,
+              204
+            ]
+          ],
+          "numel": 204
+        },
+        {
+          "key": "features.4.0.left1.1.bias",
+          "bounds": [
+            [
+              0,
+              204
+            ]
+          ],
+          "numel": 204
+        },
+        {
+          "key": "features.4.0.left2.0.weight",
+          "bounds": [
+            [
+              0,
+              204
+            ],
+            [
+              0,
+              204
+            ]
+          ],
+          "numel": 374544
+        },
+        {
+          "key": "features.4.0.left2.1.weight",
+          "bounds": [
+            [
+              0,
+              204
+            ]
+          ],
+          "numel": 204
+        },
+        {
+          "key": "features.4.0.left2.1.bias",
+          "bounds": [
+            [
+              0,
+              204
+            ]
+          ],
+          "numel": 204
+        },
+        {
+          "key": "features.4.0.shortcut.0.weight",
+          "bounds": [
+            [
+              0,
+              204
+            ],
+            [
+              0,
+              102
+            ]
+          ],
+          "numel": 20808
+        },
+        {
+          "key": "features.4.0.shortcut.1.weight",
+          "bounds": [
+            [
+              0,
+              204
+            ]
+          ],
+          "numel": 204
+        },
+        {
+          "key": "features.4.0.shortcut.1.bias",
+          "bounds": [
+            [
+              0,
+              204
+            ]
+          ],
+          "numel": 204
+        },
+        {
+          "key": "features.4.1.left1.0.weight",
+          "bounds": [
+            [
+              0,
+              204
+            ],
+            [
+              0,
+              204
+            ]
+          ],
+          "numel": 374544
+        },
+        {
+          "key": "features.4.1.left1.1.weight",
+          "bounds": [
+            [
+              0,
+              204
+            ]
+          ],
+          "numel": 204
+        },
+        {
+          "key": "features.4.1.left1.1.bias",
+          "bounds": [
+            [
+              0,
+              204
+            ]
+          ],
+          "numel": 204
+        },
+        {
+          "key": "features.4.1.left2.0.weight",
+          "bounds": [
+            [
+              0,
+              204
+            ],
+            [
+              0,
+              204
+            ]
+          ],
+          "numel": 374544
+        },
+        {
+          "key": "features.4.1.left2.1.weight",
+          "bounds": [
+            [
+              0,
+              204
+            ]
+          ],
+          "numel": 204
+        },
+        {
+          "key": "features.4.1.left2.1.bias",
+          "bounds": [
+            [
+              0,
+              204
+            ]
+          ],
+          "numel": 204
+        },
+        {
+          "key": "classifier.weight",
+          "bounds": [
+            [
+              0,
+              100
+            ],
+            [
+              0,
+              204
+            ]
+          ],
+          "numel": 20400
+        },
+        {
+          "key": "classifier.bias",
+          "bounds": [
+            [
+              0,
+              100
+            ]
+          ],
+          "numel": 100
+        }
+      ],
+      "numel": 2120985
+    },
+    {
+      "id": 1,
+      "profiles": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cells": [
+        {
+          "key": "features.2.0.left1.0.weight",
+          "bounds": [
+            [
+              51,
+              84
+            ],
+            [
+              0,
+              96
+            ]
+          ],
+          "numel": 28512
+        },
+        {
+          "key": "features.2.0.left1.1.weight",
+          "bounds": [
+            [
+              51,
+              84
+            ]
+          ],
+          "numel": 33
+        },
+        {
+          "key": "features.2.0.left1.1.bias",
+          "bounds": [
+            [
+              51,
+              84
+            ]
+          ],
+          "numel": 33
+        },
+        {
+          "key": "features.2.0.left2.0.weight",
+          "bounds": [
+            [
+              0,
+              51
+            ],
+            [
+              51,
+              84
+            ]
+          ],
+          "numel": 15147
+        },
+        {
+          "key": "features.2.0.left2.0.weight",
+          "bounds": [
+            [
+              51,
+              84
+            ],
+            [
+              0,
+              51
+            ]
+          ],
+          "numel": 15147
+        },
+        {
+          "key": "features.2.0.left2.0.weight",
+          "bounds": [
+            [
+              51,
+              84
+            ],
+            [
+              51,
+              84
+            ]
+          ],
+          "numel": 9801
+        },
+        {
+          "key": "features.2.0.left2.1.weight",
+          "bounds": [
+            [
+              51,
+              84
+            ]
+          ],
+          "numel": 33
+        },
+        {
+          "key": "features.2.0.left2.1.bias",
+          "bounds": [
+            [
+              51,
+              84
+            ]
+          ],
+          "numel": 33
+        },
+        {
+          "key": "features.2.0.shortcut.0.weight",
+          "bounds": [
+            [
+              51,
+              84
+            ],
+            [
+              0,
+              96
+            ]
+          ],
+          "numel": 3168
+        },
+        {
+          "key": "features.2.0.shortcut.1.weight",
+          "bounds": [
+            [
+              51,
+              84
+            ]
+          ],
+          "numel": 33
+        },
+        {
+          "key": "features.2.0.shortcut.1.bias",
+          "bounds": [
+            [
+              51,
+              84
+            ]
+          ],
+          "numel": 33
+        },
+        {
+          "key": "features.2.1.left1.0.weight",
+          "bounds": [
+            [
+              0,
+              51
+            ],
+            [
+              51,
+              84
+            ]
+          ],
+          "numel": 15147
+        },
+        {
+          "key": "features.2.1.left1.0.weight",
+          "bounds": [
+            [
+              51,
+              84
+            ],
+            [
+              0,
+              51
+            ]
+          ],
+          "numel": 15147
+        },
+        {
+          "key": "features.2.1.left1.0.weight",
+          "bounds": [
+            [
+              51,
+              84
+            ],
+            [
+              51,
+              84
+            ]
+          ],
+          "numel": 9801
+        },
+        {
+          "key": "features.2.1.left1.1.weight",
+          "bounds": [
+            [
+              51,
+              84
+            ]
+          ],
+          "numel": 33
+        },
+        {
+          "key": "features.2.1.left1.1.bias",
+          "bounds": [
+            [
+              51,
+              84
+            ]
+          ],
+          "numel": 33
+        },
+        {
+          "key": "features.2.1.left2.0.weight",
+          "bounds": [
+            [
+              0,
+              51
+            ],
+            [
+              51,
+              84
+            ]
+          ],
+          "numel": 15147
+        },
+        {
+          "key": "features.2.1.left2.0.weight",
+          "bounds": [
+            [
+              51,
+              84
+            ],
+            [
+              0,
+              51
+            ]
+          ],
+          "numel": 15147
+        },
+        {
+          "key": "features.2.1.left2.0.weight",
+          "bounds": [
+            [
+              51,
+              84
+            ],
+            [
+              51,
+              84
+            ]
+          ],
+          "numel": 9801
+        },
+        {
+          "key": "features.2.1.left2.1.weight",
+          "bounds": [
+            [
+              51,
+              84
+            ]
+          ],
+          "numel": 33
+        },
+        {
+          "key": "features.2.1.left2.1.bias",
+          "bounds": [
+            [
+              51,
+              84
+            ]
+          ],
+          "numel": 33
+        },
+        {
+          "key": "features.3.0.left1.0.weight",
+          "bounds": [
+            [
+              0,
+              102
+            ],
+            [
+              51,
+              84
+            ]
+          ],
+          "numel": 30294
+        },
+        {
+          "key": "features.3.0.shortcut.0.weight",
+          "bounds": [
+            [
+              0,
+              102
+            ],
+            [
+              51,
+              84
+            ]
+          ],
+          "numel": 3366
+        }
+      ],
+      "numel": 185955
+    },
+    {
+      "id": 2,
+      "profiles": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "cells": [
+        {
+          "key": "features.2.0.left1.0.weight",
+          "bounds": [
+            [
+              84,
+              128
+            ],
+            [
+              0,
+              96
+            ]
+          ],
+          "numel": 38016
+        },
+        {
+          "key": "features.2.0.left1.1.weight",
+          "bounds": [
+            [
+              84,
+              128
+            ]
+          ],
+          "numel": 44
+        },
+        {
+          "key": "features.2.0.left1.1.bias",
+          "bounds": [
+            [
+              84,
+              128
+            ]
+          ],
+          "numel": 44
+        },
+        {
+          "key": "features.2.0.left2.0.weight",
+          "bounds": [
+            [
+              0,
+              51
+            ],
+            [
+              84,
+              128
+            ]
+          ],
+          "numel": 20196
+        },
+        {
+          "key": "features.2.0.left2.0.weight",
+          "bounds": [
+            [
+              51,
+              84
+            ],
+            [
+              84,
+              128
+            ]
+          ],
+          "numel": 13068
+        },
+        {
+          "key": "features.2.0.left2.0.weight",
+          "bounds": [
+            [
+              84,
+              128
+            ],
+            [
+              0,
+              51
+            ]
+          ],
+          "numel": 20196
+        },
+        {
+          "key": "features.2.0.left2.0.weight",
+          "bounds": [
+            [
+              84,
+              128
+            ],
+            [
+              51,
+              84
+            ]
+          ],
+          "numel": 13068
+        },
+        {
+          "key": "features.2.0.left2.0.weight",
+          "bounds": [
+            [
+              84,
+              128
+            ],
+            [
+              84,
+              128
+            ]
+          ],
+          "numel": 17424
+        },
+        {
+          "key": "features.2.0.left2.1.weight",
+          "bounds": [
+            [
+              84,
+              128
+            ]
+          ],
+          "numel": 44
+        },
+        {
+          "key": "features.2.0.left2.1.bias",
+          "bounds": [
+            [
+              84,
+              128
+            ]
+          ],
+          "numel": 44
+        },
+        {
+          "key": "features.2.0.shortcut.0.weight",
+          "bounds": [
+            [
+              84,
+              128
+            ],
+            [
+              0,
+              96
+            ]
+          ],
+          "numel": 4224
+        },
+        {
+          "key": "features.2.0.shortcut.1.weight",
+          "bounds": [
+            [
+              84,
+              128
+            ]
+          ],
+          "numel": 44
+        },
+        {
+          "key": "features.2.0.shortcut.1.bias",
+          "bounds": [
+            [
+              84,
+              128
+            ]
+          ],
+          "numel": 44
+        },
+        {
+          "key": "features.2.1.left1.0.weight",
+          "bounds": [
+            [
+              0,
+              51
+            ],
+            [
+              84,
+              128
+            ]
+          ],
+          "numel": 20196
+        },
+        {
+          "key": "features.2.1.left1.0.weight",
+          "bounds": [
+            [
+              51,
+              84
+            ],
+            [
+              84,
+              128
+            ]
+          ],
+          "numel": 13068
+        },
+        {
+          "key": "features.2.1.left1.0.weight",
+          "bounds": [
+            [
+              84,
+              128
+            ],
+            [
+              0,
+              51
+            ]
+          ],
+          "numel": 20196
+        },
+        {
+          "key": "features.2.1.left1.0.weight",
+          "bounds": [
+            [
+              84,
+              128
+            ],
+            [
+              51,
+              84
+            ]
+          ],
+          "numel": 13068
+        },
+        {
+          "key": "features.2.1.left1.0.weight",
+          "bounds": [
+            [
+              84,
+              128
+            ],
+            [
+              84,
+              128
+            ]
+          ],
+          "numel": 17424
+        },
+        {
+          "key": "features.2.1.left1.1.weight",
+          "bounds": [
+            [
+              84,
+              128
+            ]
+          ],
+          "numel": 44
+        },
+        {
+          "key": "features.2.1.left1.1.bias",
+          "bounds": [
+            [
+              84,
+              128
+            ]
+          ],
+          "numel": 44
+        },
+        {
+          "key": "features.2.1.left2.0.weight",
+          "bounds": [
+            [
+              0,
+              51
+            ],
+            [
+              84,
+              128
+            ]
+          ],
+          "numel": 20196
+        },
+        {
+          "key": "features.2.1.left2.0.weight",
+          "bounds": [
+            [
+              51,
+              84
+            ],
+            [
+              84,
+              128
+            ]
+          ],
+          "numel": 13068
+        },
+        {
+          "key": "features.2.1.left2.0.weight",
+          "bounds": [
+            [
+              84,
+              128
+            ],
+            [
+              0,
+              51
+            ]
+          ],
+          "numel": 20196
+        },
+        {
+          "key": "features.2.1.left2.0.weight",
+          "bounds": [
+            [
+              84,
+              128
+            ],
+            [
+              51,
+              84
+            ]
+          ],
+          "numel": 13068
+        },
+        {
+          "key": "features.2.1.left2.0.weight",
+          "bounds": [
+            [
+              84,
+              128
+            ],
+            [
+              84,
+              128
+            ]
+          ],
+          "numel": 17424
+        },
+        {
+          "key": "features.2.1.left2.1.weight",
+          "bounds": [
+            [
+              84,
+              128
+            ]
+          ],
+          "numel": 44
+        },
+        {
+          "key": "features.2.1.left2.1.bias",
+          "bounds": [
+            [
+              84,
+              128
+            ]
+          ],
+          "numel": 44
+        },
+        {
+          "key": "features.3.0.left1.0.weight",
+          "bounds": [
+            [
+              0,
+              102
+            ],
+            [
+              84,
+              128
+            ]
+          ],
+          "numel": 40392
+        },
+        {
+          "key": "features.3.0.shortcut.0.weight",
+          "bounds": [
+            [
+              0,
+              102
+            ],
+            [
+              84,
+              128
+            ]
+          ],
+          "numel": 4488
+        }
+      ],
+      "numel": 339416
+    },
+    {
+      "id": 3,
+      "profiles": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cells": [
+        {
+          "key": "features.3.0.left1.0.weight",
+          "bounds": [
+            [
+              102,
+              168
+            ],
+            [
+              0,
+              51
+            ]
+          ],
+          "numel": 30294
+        },
+        {
+          "key": "features.3.0.left1.0.weight",
+          "bounds": [
+            [
+              102,
+              168
+            ],
+            [
+              51,
+              84
+            ]
+          ],
+          "numel": 19602
+        },
+        {
+          "key": "features.3.0.left1.1.weight",
+          "bounds": [
+            [
+              102,
+              168
+            ]
+          ],
+          "numel": 66
+        },
+        {
+          "key": "features.3.0.left1.1.bias",
+          "bounds": [
+            [
+              102,
+              168
+            ]
+          ],
+          "numel": 66
+        },
+        {
+          "key": "features.3.0.left2.0.weight",
+          "bounds": [
+            [
+              0,
+              102
+            ],
+            [
+              102,
+              168
+            ]
+          ],
+          "numel": 60588
+        },
+        {
+          "key": "features.3.0.left2.0.weight",
+          "bounds": [
+            [
+              102,
+              168
+            ],
+            [
+              0,
+              102
+            ]
+          ],
+          "numel": 60588
+        },
+        {
+          "key": "features.3.0.left2.0.weight",
+          "bounds": [
+            [
+              102,
+              168
+            ],
+            [
+              102,
+              168
+            ]
+          ],
+          "numel": 39204
+        },
+        {
+          "key": "features.3.0.left2.1.weight",
+          "bounds": [
+            [
+              102,
+              168
+            ]
+          ],
+          "numel": 66
+        },
+        {
+          "key": "features.3.0.left2.1.bias",
+          "bounds": [
+            [
+              102,
+              168
+            ]
+          ],
+          "numel": 66
+        },
+        {
+          "key": "features.3.0.shortcut.0.weight",
+          "bounds": [
+            [
+              102,
+              168
+            ],
+            [
+              0,
+              51
+            ]
+          ],
+          "numel": 3366
+        },
+        {
+          "key": "features.3.0.shortcut.0.weight",
+          "bounds": [
+            [
+              102,
+              168
+            ],
+            [
+              51,
+              84
+            ]
+          ],
+          "numel": 2178
+        },
+        {
+          "key": "features.3.0.shortcut.1.weight",
+          "bounds": [
+            [
+              102,
+              168
+            ]
+          ],
+          "numel": 66
+        },
+        {
+          "key": "features.3.0.shortcut.1.bias",
+          "bounds": [
+            [
+              102,
+              168
+            ]
+          ],
+          "numel": 66
+        },
+        {
+          "key": "features.3.1.left1.0.weight",
+          "bounds": [
+            [
+              0,
+              102
+            ],
+            [
+              102,
+              168
+            ]
+          ],
+          "numel": 60588
+        },
+        {
+          "key": "features.3.1.left1.0.weight",
+          "bounds": [
+            [
+              102,
+              168
+            ],
+            [
+              0,
+              102
+            ]
+          ],
+          "numel": 60588
+        },
+        {
+          "key": "features.3.1.left1.0.weight",
+          "bounds": [
+            [
+              102,
+              168
+            ],
+            [
+              102,
+              168
+            ]
+          ],
+          "numel": 39204
+        },
+        {
+          "key": "features.3.1.left1.1.weight",
+          "bounds": [
+            [
+              102,
+              168
+            ]
+          ],
+          "numel": 66
+        },
+        {
+          "key": "features.3.1.left1.1.bias",
+          "bounds": [
+            [
+              102,
+              168
+            ]
+          ],
+          "numel": 66
+        },
+        {
+          "key": "features.3.1.left2.0.weight",
+          "bounds": [
+            [
+              0,
+              102
+            ],
+            [
+              102,
+              168
+            ]
+          ],
+          "numel": 60588
+        },
+        {
+          "key": "features.3.1.left2.0.weight",
+          "bounds": [
+            [
+              102,
+              168
+            ],
+            [
+              0,
+              102
+            ]
+          ],
+          "numel": 60588
+        },
+        {
+          "key": "features.3.1.left2.0.weight",
+          "bounds": [
+            [
+              102,
+              168
+            ],
+            [
+              102,
+              168
+            ]
+          ],
+          "numel": 39204
+        },
+        {
+          "key": "features.3.1.left2.1.weight",
+          "bounds": [
+            [
+              102,
+              168
+            ]
+          ],
+          "numel": 66
+        },
+        {
+          "key": "features.3.1.left2.1.bias",
+          "bounds": [
+            [
+              102,
+              168
+            ]
+          ],
+          "numel": 66
+        },
+        {
+          "key": "features.4.0.left1.0.weight",
+          "bounds": [
+            [
+              0,
+              204
+            ],
+            [
+              102,
+              168
+            ]
+          ],
+          "numel": 121176
+        },
+        {
+          "key": "features.4.0.shortcut.0.weight",
+          "bounds": [
+            [
+              0,
+              204
+            ],
+            [
+              102,
+              168
+            ]
+          ],
+          "numel": 13464
+        }
+      ],
+      "numel": 671880
+    },
+    {
+      "id": 4,
+      "profiles": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "cells": [
+        {
+          "key": "features.3.0.left1.0.weight",
+          "bounds": [
+            [
+              102,
+              168
+            ],
+            [
+              84,
+              128
+            ]
+          ],
+          "numel": 26136
+        },
+        {
+          "key": "features.3.0.shortcut.0.weight",
+          "bounds": [
+            [
+              102,
+              168
+            ],
+            [
+              84,
+              128
+            ]
+          ],
+          "numel": 2904
+        }
+      ],
+      "numel": 29040
+    },
+    {
+      "id": 5,
+      "profiles": [
+        2,
+        5,
+        6
+      ],
+      "cells": [
+        {
+          "key": "features.3.0.left1.0.weight",
+          "bounds": [
+            [
+              168,
+              256
+            ],
+            [
+              0,
+              51
+            ]
+          ],
+          "numel": 40392
+        },
+        {
+          "key": "features.3.0.left1.0.weight",
+          "bounds": [
+            [
+              168,
+              256
+            ],
+            [
+              51,
+              84
+            ]
+          ],
+          "numel": 26136
+        },
+        {
+          "key": "features.3.0.left1.0.weight",
+          "bounds": [
+            [
+              168,
+              256
+            ],
+            [
+              84,
+              128
+            ]
+          ],
+          "numel": 34848
+        },
+        {
+          "key": "features.3.0.left1.1.weight",
+          "bounds": [
+            [
+              168,
+              256
+            ]
+          ],
+          "numel": 88
+        },
+        {
+          "key": "features.3.0.left1.1.bias",
+          "bounds": [
+            [
+              168,
+              256
+            ]
+          ],
+          "numel": 88
+        },
+        {
+          "key": "features.3.0.left2.0.weight",
+          "bounds": [
+            [
+              0,
+              102
+            ],
+            [
+              168,
+              256
+            ]
+          ],
+          "numel": 80784
+        },
+        {
+          "key": "features.3.0.left2.0.weight",
+          "bounds": [
+            [
+              102,
+              168
+            ],
+            [
+              168,
+              256
+            ]
+          ],
+          "numel": 52272
+        },
+        {
+          "key": "features.3.0.left2.0.weight",
+          "bounds": [
+            [
+              168,
+              256
+            ],
+            [
+              0,
+              102
+            ]
+          ],
+          "numel": 80784
+        },
+        {
+          "key": "features.3.0.left2.0.weight",
+          "bounds": [
+            [
+              168,
+              256
+            ],
+            [
+              102,
+              168
+            ]
+          ],
+          "numel": 52272
+        },
+        {
+          "key": "features.3.0.left2.0.weight",
+          "bounds": [
+            [
+              168,
+              256
+            ],
+            [
+              168,
+              256
+            ]
+          ],
+          "numel": 69696
+        },
+        {
+          "key": "features.3.0.left2.1.weight",
+          "bounds": [
+            [
+              168,
+              256
+            ]
+          ],
+          "numel": 88
+        },
+        {
+          "key": "features.3.0.left2.1.bias",
+          "bounds": [
+            [
+              168,
+              256
+            ]
+          ],
+          "numel": 88
+        },
+        {
+          "key": "features.3.0.shortcut.0.weight",
+          "bounds": [
+            [
+              168,
+              256
+            ],
+            [
+              0,
+              51
+            ]
+          ],
+          "numel": 4488
+        },
+        {
+          "key": "features.3.0.shortcut.0.weight",
+          "bounds": [
+            [
+              168,
+              256
+            ],
+            [
+              51,
+              84
+            ]
+          ],
+          "numel": 2904
+        },
+        {
+          "key": "features.3.0.shortcut.0.weight",
+          "bounds": [
+            [
+              168,
+              256
+            ],
+            [
+              84,
+              128
+            ]
+          ],
+          "numel": 3872
+        },
+        {
+          "key": "features.3.0.shortcut.1.weight",
+          "bounds": [
+            [
+              168,
+              256
+            ]
+          ],
+          "numel": 88
+        },
+        {
+          "key": "features.3.0.shortcut.1.bias",
+          "bounds": [
+            [
+              168,
+              256
+            ]
+          ],
+          "numel": 88
+        },
+        {
+          "key": "features.3.1.left1.0.weight",
+          "bounds": [
+            [
+              0,
+              102
+            ],
+            [
+              168,
+              256
+            ]
+          ],
+          "numel": 80784
+        },
+        {
+          "key": "features.3.1.left1.0.weight",
+          "bounds": [
+            [
+              102,
+              168
+            ],
+            [
+              168,
+              256
+            ]
+          ],
+          "numel": 52272
+        },
+        {
+          "key": "features.3.1.left1.0.weight",
+          "bounds": [
+            [
+              168,
+              256
+            ],
+            [
+              0,
+              102
+            ]
+          ],
+          "numel": 80784
+        },
+        {
+          "key": "features.3.1.left1.0.weight",
+          "bounds": [
+            [
+              168,
+              256
+            ],
+            [
+              102,
+              168
+            ]
+          ],
+          "numel": 52272
+        },
+        {
+          "key": "features.3.1.left1.0.weight",
+          "bounds": [
+            [
+              168,
+              256
+            ],
+            [
+              168,
+              256
+            ]
+          ],
+          "numel": 69696
+        },
+        {
+          "key": "features.3.1.left1.1.weight",
+          "bounds": [
+            [
+              168,
+              256
+            ]
+          ],
+          "numel": 88
+        },
+        {
+          "key": "features.3.1.left1.1.bias",
+          "bounds": [
+            [
+              168,
+              256
+            ]
+          ],
+          "numel": 88
+        },
+        {
+          "key": "features.3.1.left2.0.weight",
+          "bounds": [
+            [
+              0,
+              102
+            ],
+            [
+              168,
+              256
+            ]
+          ],
+          "numel": 80784
+        },
+        {
+          "key": "features.3.1.left2.0.weight",
+          "bounds": [
+            [
+              102,
+              168
+            ],
+            [
+              168,
+              256
+            ]
+          ],
+          "numel": 52272
+        },
+        {
+          "key": "features.3.1.left2.0.weight",
+          "bounds": [
+            [
+              168,
+              256
+            ],
+            [
+              0,
+              102
+            ]
+          ],
+          "numel": 80784
+        },
+        {
+          "key": "features.3.1.left2.0.weight",
+          "bounds": [
+            [
+              168,
+              256
+            ],
+            [
+              102,
+              168
+            ]
+          ],
+          "numel": 52272
+        },
+        {
+          "key": "features.3.1.left2.0.weight",
+          "bounds": [
+            [
+              168,
+              256
+            ],
+            [
+              168,
+              256
+            ]
+          ],
+          "numel": 69696
+        },
+        {
+          "key": "features.3.1.left2.1.weight",
+          "bounds": [
+            [
+              168,
+              256
+            ]
+          ],
+          "numel": 88
+        },
+        {
+          "key": "features.3.1.left2.1.bias",
+          "bounds": [
+            [
+              168,
+              256
+            ]
+          ],
+          "numel": 88
+        },
+        {
+          "key": "features.4.0.left1.0.weight",
+          "bounds": [
+            [
+              0,
+              204
+            ],
+            [
+              168,
+              256
+            ]
+          ],
+          "numel": 161568
+        },
+        {
+          "key": "features.4.0.shortcut.0.weight",
+          "bounds": [
+            [
+              0,
+              204
+            ],
+            [
+              168,
+              256
+            ]
+          ],
+          "numel": 17952
+        }
+      ],
+      "numel": 1300464
+    },
+    {
+      "id": 6,
+      "profiles": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "cells": [
+        {
+          "key": "features.4.0.left1.0.weight",
+          "bounds": [
+            [
+              204,
+              337
+            ],
+            [
+              0,
+              102
+            ]
+          ],
+          "numel": 122094
+        },
+        {
+          "key": "features.4.0.left1.0.weight",
+          "bounds": [
+            [
+              204,
+              337
+            ],
+            [
+              102,
+              168
+            ]
+          ],
+          "numel": 79002
+        },
+        {
+          "key": "features.4.0.left1.1.weight",
+          "bounds": [
+            [
+              204,
+              337
+            ]
+          ],
+          "numel": 133
+        },
+        {
+          "key": "features.4.0.left1.1.bias",
+          "bounds": [
+            [
+              204,
+              337
+            ]
+          ],
+          "numel": 133
+        },
+        {
+          "key": "features.4.0.left2.0.weight",
+          "bounds": [
+            [
+              0,
+              204
+            ],
+            [
+              204,
+              337
+            ]
+          ],
+          "numel": 244188
+        },
+        {
+          "key": "features.4.0.left2.0.weight",
+          "bounds": [
+            [
+              204,
+              337
+            ],
+            [
+              0,
+              204
+            ]
+          ],
+          "numel": 244188
+        },
+        {
+          "key": "features.4.0.left2.0.weight",
+          "bounds": [
+            [
+              204,
+              337
+            ],
+            [
+              204,
+              337
+            ]
+          ],
+          "numel": 159201
+        },
+        {
+          "key": "features.4.0.left2.1.weight",
+          "bounds": [
+            [
+              204,
+              337
+            ]
+          ],
+          "numel": 133
+        },
+        {
+          "key": "features.4.0.left2.1.bias",
+          "bounds": [
+            [
+              204,
+              337
+            ]
+          ],
+          "numel": 133
+        },
+        {
+          "key": "features.4.0.shortcut.0.weight",
+          "bounds": [
+            [
+              204,
+              337
+            ],
+            [
+              0,
+              102
+            ]
+          ],
+          "numel": 13566
+        },
+        {
+          "key": "features.4.0.shortcut.0.weight",
+          "bounds": [
+            [
+              204,
+              337
+            ],
+            [
+              102,
+              168
+            ]
+          ],
+          "numel": 8778
+        },
+        {
+          "key": "features.4.0.shortcut.1.weight",
+          "bounds": [
+            [
+              204,
+              337
+            ]
+          ],
+          "numel": 133
+        },
+        {
+          "key": "features.4.0.shortcut.1.bias",
+          "bounds": [
+            [
+              204,
+              337
+            ]
+          ],
+          "numel": 133
+        },
+        {
+          "key": "features.4.1.left1.0.weight",
+          "bounds": [
+            [
+              0,
+              204
+            ],
+            [
+              204,
+              337
+            ]
+          ],
+          "numel": 244188
+        },
+        {
+          "key": "features.4.1.left1.0.weight",
+          "bounds": [
+            [
+              204,
+              337
+            ],
+            [
+              0,
+              204
+            ]
+          ],
+          "numel": 244188
+        },
+        {
+          "key": "features.4.1.left1.0.weight",
+          "bounds": [
+            [
+              204,
+              337
+            ],
+            [
+              204,
+              337
+            ]
+          ],
+          "numel": 159201
+        },
+        {
+          "key": "features.4.1.left1.1.weight",
+          "bounds": [
+            [
+              204,
+              337
+            ]
+          ],
+          "numel": 133
+        },
+        {
+          "key": "features.4.1.left1.1.bias",
+          "bounds": [
+            [
+              204,
+              337
+            ]
+          ],
+          "numel": 133
+        },
+        {
+          "key": "features.4.1.left2.0.weight",
+          "bounds": [
+            [
+              0,
+              204
+            ],
+            [
+              204,
+              337
+            ]
+          ],
+          "numel": 244188
+        },
+        {
+          "key": "features.4.1.left2.0.weight",
+          "bounds": [
+            [
+              204,
+              337
+            ],
+            [
+              0,
+              204
+            ]
+          ],
+          "numel": 244188
+        },
+        {
+          "key": "features.4.1.left2.0.weight",
+          "bounds": [
+            [
+              204,
+              337
+            ],
+            [
+              204,
+              337
+            ]
+          ],
+          "numel": 159201
+        },
+        {
+          "key": "features.4.1.left2.1.weight",
+          "bounds": [
+            [
+              204,
+              337
+            ]
+          ],
+          "numel": 133
+        },
+        {
+          "key": "features.4.1.left2.1.bias",
+          "bounds": [
+            [
+              204,
+              337
+            ]
+          ],
+          "numel": 133
+        },
+        {
+          "key": "classifier.weight",
+          "bounds": [
+            [
+              0,
+              100
+            ],
+            [
+              204,
+              337
+            ]
+          ],
+          "numel": 13300
+        }
+      ],
+      "numel": 2180801
+    },
+    {
+      "id": 7,
+      "profiles": [
+        5,
+        6
+      ],
+      "cells": [
+        {
+          "key": "features.4.0.left1.0.weight",
+          "bounds": [
+            [
+              204,
+              337
+            ],
+            [
+              168,
+              256
+            ]
+          ],
+          "numel": 105336
+        },
+        {
+          "key": "features.4.0.shortcut.0.weight",
+          "bounds": [
+            [
+              204,
+              337
+            ],
+            [
+              168,
+              256
+            ]
+          ],
+          "numel": 11704
+        }
+      ],
+      "numel": 117040
+    },
+    {
+      "id": 8,
+      "profiles": [
+        6
+      ],
+      "cells": [
+        {
+          "key": "features.4.0.left1.0.weight",
+          "bounds": [
+            [
+              337,
+              512
+            ],
+            [
+              0,
+              102
+            ]
+          ],
+          "numel": 160650
+        },
+        {
+          "key": "features.4.0.left1.0.weight",
+          "bounds": [
+            [
+              337,
+              512
+            ],
+            [
+              102,
+              168
+            ]
+          ],
+          "numel": 103950
+        },
+        {
+          "key": "features.4.0.left1.0.weight",
+          "bounds": [
+            [
+              337,
+              512
+            ],
+            [
+              168,
+              256
+            ]
+          ],
+          "numel": 138600
+        },
+        {
+          "key": "features.4.0.left1.1.weight",
+          "bounds": [
+            [
+              337,
+              512
+            ]
+          ],
+          "numel": 175
+        },
+        {
+          "key": "features.4.0.left1.1.bias",
+          "bounds": [
+            [
+              337,
+              512
+            ]
+          ],
+          "numel": 175
+        },
+        {
+          "key": "features.4.0.left2.0.weight",
+          "bounds": [
+            [
+              0,
+              204
+            ],
+            [
+              337,
+              512
+            ]
+          ],
+          "numel": 321300
+        },
+        {
+          "key": "features.4.0.left2.0.weight",
+          "bounds": [
+            [
+              204,
+              337
+            ],
+            [
+              337,
+              512
+            ]
+          ],
+          "numel": 209475
+        },
+        {
+          "key": "features.4.0.left2.0.weight",
+          "bounds": [
+            [
+              337,
+              512
+            ],
+            [
+              0,
+              204
+            ]
+          ],
+          "numel": 321300
+        },
+        {
+          "key": "features.4.0.left2.0.weight",
+          "bounds": [
+            [
+              337,
+              512
+            ],
+            [
+              204,
+              337
+            ]
+          ],
+          "numel": 209475
+        },
+        {
+          "key": "features.4.0.left2.0.weight",
+          "bounds": [
+            [
+              337,
+              512
+            ],
+            [
+              337,
+              512
+            ]
+          ],
+          "numel": 275625
+        },
+        {
+          "key": "features.4.0.left2.1.weight",
+          "bounds": [
+            [
+              337,
+              512
+            ]
+          ],
+          "numel": 175
+        },
+        {
+          "key": "features.4.0.left2.1.bias",
+          "bounds": [
+            [
+              337,
+              512
+            ]
+          ],
+          "numel": 175
+        },
+        {
+          "key": "features.4.0.shortcut.0.weight",
+          "bounds": [
+            [
+              337,
+              512
+            ],
+            [
+              0,
+              102
+            ]
+          ],
+          "numel": 17850
+        },
+        {
+          "key": "features.4.0.shortcut.0.weight",
+          "bounds": [
+            [
+              337,
+              512
+            ],
+            [
+              102,
+              168
+            ]
+          ],
+          "numel": 11550
+        },
+        {
+          "key": "features.4.0.shortcut.0.weight",
+          "bounds": [
+            [
+              337,
+              512
+            ],
+            [
+              168,
+              256
+            ]
+          ],
+          "numel": 15400
+        },
+        {
+          "key": "features.4.0.shortcut.1.weight",
+          "bounds": [
+            [
+              337,
+              512
+            ]
+          ],
+          "numel": 175
+        },
+        {
+          "key": "features.4.0.shortcut.1.bias",
+          "bounds": [
+            [
+              337,
+              512
+            ]
+          ],
+          "numel": 175
+        },
+        {
+          "key": "features.4.1.left1.0.weight",
+          "bounds": [
+            [
+              0,
+              204
+            ],
+            [
+              337,
+              512
+            ]
+          ],
+          "numel": 321300
+        },
+        {
+          "key": "features.4.1.left1.0.weight",
+          "bounds": [
+            [
+              204,
+              337
+            ],
+            [
+              337,
+              512
+            ]
+          ],
+          "numel": 209475
+        },
+        {
+          "key": "features.4.1.left1.0.weight",
+          "bounds": [
+            [
+              337,
+              512
+            ],
+            [
+              0,
+              204
+            ]
+          ],
+          "numel": 321300
+        },
+        {
+          "key": "features.4.1.left1.0.weight",
+          "bounds": [
+            [
+              337,
+              512
+            ],
+            [
+              204,
+              337
+            ]
+          ],
+          "numel": 209475
+        },
+        {
+          "key": "features.4.1.left1.0.weight",
+          "bounds": [
+            [
+              337,
+              512
+            ],
+            [
+              337,
+              512
+            ]
+          ],
+          "numel": 275625
+        },
+        {
+          "key": "features.4.1.left1.1.weight",
+          "bounds": [
+            [
+              337,
+              512
+            ]
+          ],
+          "numel": 175
+        },
+        {
+          "key": "features.4.1.left1.1.bias",
+          "bounds": [
+            [
+              337,
+              512
+            ]
+          ],
+          "numel": 175
+        },
+        {
+          "key": "features.4.1.left2.0.weight",
+          "bounds": [
+            [
+              0,
+              204
+            ],
+            [
+              337,
+              512
+            ]
+          ],
+          "numel": 321300
+        },
+        {
+          "key": "features.4.1.left2.0.weight",
+          "bounds": [
+            [
+              204,
+              337
+            ],
+            [
+              337,
+              512
+            ]
+          ],
+          "numel": 209475
+        },
+        {
+          "key": "features.4.1.left2.0.weight",
+          "bounds": [
+            [
+              337,
+              512
+            ],
+            [
+              0,
+              204
+            ]
+          ],
+          "numel": 321300
+        },
+        {
+          "key": "features.4.1.left2.0.weight",
+          "bounds": [
+            [
+              337,
+              512
+            ],
+            [
+              204,
+              337
+            ]
+          ],
+          "numel": 209475
+        },
+        {
+          "key": "features.4.1.left2.0.weight",
+          "bounds": [
+            [
+              337,
+              512
+            ],
+            [
+              337,
+              512
+            ]
+          ],
+          "numel": 275625
+        },
+        {
+          "key": "features.4.1.left2.1.weight",
+          "bounds": [
+            [
+              337,
+              512
+            ]
+          ],
+          "numel": 175
+        },
+        {
+          "key": "features.4.1.left2.1.bias",
+          "bounds": [
+            [
+              337,
+              512
+            ]
+          ],
+          "numel": 175
+        },
+        {
+          "key": "classifier.weight",
+          "bounds": [
+            [
+              0,
+              100
+            ],
+            [
+              337,
+              512
+            ]
+          ],
+          "numel": 17500
+        }
+      ],
+      "numel": 4478775
+    }
+  ],
+  "bounds": "Each [lo,hi) prefix rectangle; unspecified trailing dimensions covered in full",
+  "BN": "A07 unchanged",
+  "classifier": "Native",
+  "first_round": "Native",
+  "slot_duplicates": "SGD uploads retained; semantic independent support deduplicated by physical identity",
+  "single_tier": "Native",
+  "uncovered": "preserve previous Full coordinates"
+}

@@ -1,0 +1,15 @@
+{
+  "source_files_unchanged": true,
+  "actual_round": 13,
+  "strict_matching": true,
+  "receivers": [
+    37,
+    53,
+    98
+  ],
+  "all_receivers_and_both_class_metrics_retained": true,
+  "all_six_controls_retained": true,
+  "visual_inspection": "Final PDF rendered at170dpi and visually checked: no overlapping labels, legend or clipping",
+  "synthetic_data_generated": false,
+  "additional_training": false
+}

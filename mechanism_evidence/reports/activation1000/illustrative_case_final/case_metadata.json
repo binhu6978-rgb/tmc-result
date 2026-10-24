@@ -1,0 +1,15 @@
+{
+  "round": 21,
+  "receiver": 98,
+  "cohort": "confirmation",
+  "profile": 6,
+  "probe_examples": 52,
+  "region": 0,
+  "selection": "Among confirmation receiver-round cases with valid semantic evidence and positive V2 utility versus same-input A07, maximize V2-minus-permuted CE utility. Ties: earliest round, lowest receiver ID.",
+  "selection_uses_outcome": true,
+  "eligible_positive_cases": 52,
+  "all_receiver_round_cases": 318,
+  "contrast_v2_minus_permuted": 0.0030459993733811253,
+  "source_sha256": "7159ed336a9a7dab73b43d0e61c0c29dd48b76b6e54f57b8692694f68a5f681a",
+  "scope": "Outcome-selected favorable case, not representative or independent confirmation. All six controls retained. Training-side probes, disjoint from semantic scoring but not from SGD."
+}

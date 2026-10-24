@@ -1,0 +1,11 @@
+{
+  "runs": [
+    "v2_active1000_seed1"
+  ],
+  "rounds": 1000,
+  "model_weights": "EXCLUDED_BY_USER_REQUEST",
+  "other_run_data": "EXCLUDED_BY_USER_REQUEST",
+  "original_files": "PRESERVED",
+  "new_training": false,
+  "new_evaluation": false
+}

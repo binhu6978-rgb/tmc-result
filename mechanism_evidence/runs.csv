@@ -1,0 +1,2 @@
+run_id,algorithm,rounds,seed,mode,source_commit,source_directory,paired_reference_run_id,parent_run_id,completion_marker_present,partition_sha256,applied_lambda,runtime_dirty_diff,notes
+v2_active1000_seed1,Semantic-A07 V2,1000,1,active,149c6713c339204ad23fe43952350ae2832b3cd0,tmp/semantic_activation1000_collected/active/training/a07/active_1000_seed1,,,True,41ab2d3486663ce0100e183ab00565de137f91af07632c236c2ddf60d890ba41,0.2,NOT_SAVED unless explicit in original manifest,

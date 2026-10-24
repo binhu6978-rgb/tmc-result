@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "original_hashes_match": {
+    "receiver_utility_raw.csv": true,
+    "source_rounds.csv": true,
+    "all_rounds.csv": true,
+    "used_categories.csv": true
+  },
+  "raw_fields_compared": 15288,
+  "common_utility_rows_recomputed": 392,
+  "source_round_utility_recomputed": 50,
+  "precisions_recomputed": 40,
+  "pdf_size_inches": [
+    7.16,
+    4.35
+  ],
+  "pdf_fonts": [
+    {
+      "basefont": "/PUGLXH+TimesNewRomanPS-BoldMT",
+      "type": "/Type0",
+      "embedded_bytes": [
+        41560
+      ]
+    }
+  ],
+  "actual_font_sizes": [
+    8.0,
+    9.0,
+    10.0
+  ],
+  "embedded_raster_images": [],
+  "text_count": 40,
+  "text_overlap_count": 0,
+  "clipped_count": 0,
+  "png_size": [
+    3222,
+    1957
+  ],
+  "png_dpi": [
+    450.0118,
+    450.0118
+  ],
+  "semantic_sample_unit": "source-tier/round; repeated receivers and regions aggregated",
+  "uncertainty": "whole-round cluster bootstrap, conditional on outcome selection, not selection-adjusted",
+  "color_identity": "Low orange circle; Middle blue square; High green triangle; method marker/line redundancy",
+  "visual_review": "Passed: final PDF rendered at 96 dpi (7.16-inch display) and 170 dpi; no collisions or clipping on manual inspection.",
+  "grayscale_review": "Passed: tier marker shapes and method markers/line styles remain distinguishable in grayscale.",
+  "tests": "4 passed in 0.92 seconds; tests/test_semantic_validation_figure.py",
+  "no_new_training": true,
+  "old_figures_overwritten": false
+}

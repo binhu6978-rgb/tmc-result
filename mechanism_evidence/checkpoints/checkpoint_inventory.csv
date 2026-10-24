@@ -1,0 +1,6 @@
+run_id,path,type,size_bytes,sha256,available,round,contains_raw_samples,historical_client_updates,reason
+v2_active1000_seed1,runs/semantic_a07_v2_activation1000_seed1_20261023/active/training/a07/active_1000_seed1/recovery_latest.pt,.pt,260399980,035bcf1f361ffd6c607ddc78aa83cdc8a2b756995208f02661f01f11a945dad2,PRESENT_REMOTE_VERIFIED,1000,NO according to saved recovery writer,NO; final state only,Metadata and SHA inventoried first; >100MiB binary retained on server per request; no binary split
+v2_active1000_seed1,historical_theta_before_per_round,state_bundle,,,NOT_SAVED,historical,N/A,NO,Only hashes and scalar counterfactual outcomes retained; cannot reconstruct tensors from CSV
+v2_active1000_seed1,historical_per_slot_upload_tensor_bundles,state_bundle,,,NOT_SAVED,historical,N/A,NO,Only hashes and scalar counterfactual outcomes retained; cannot reconstruct tensors from CSV
+v2_active1000_seed1,historical_theta_after_A07_and_Sem_pair,state_bundle,,,NOT_SAVED,historical,N/A,NO,Only hashes and scalar counterfactual outcomes retained; cannot reconstruct tensors from CSV
+v2_active1000_seed1,checkpoints/published_full_states/v2_active1000_seed1_final_full.pt,.pt,45719361,90b5e468c0bb9bdf09ef45fae72610c17d8a6959162314caf4ad9eb75b71e41f,WITHHELD_USER_REQUEST,1000,NO,NO,Model weights not published by latest user instruction; original saved states retained

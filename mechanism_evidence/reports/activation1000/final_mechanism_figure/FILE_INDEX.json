@@ -1,0 +1,70 @@
+{
+  "all_diagnostic_utility_context.csv": {
+    "bytes": 88665,
+    "sha256": "317ff3d30df14202e9745403ca590cc6164b9e16840525daa65a8936fae91be6"
+  },
+  "ALT_TEXT.md": {
+    "bytes": 510,
+    "sha256": "d3ae699e93643bf8b91282d06a82e9c06e450685cfa70bde7ff04c78e74b3e9f"
+  },
+  "candidate_selection_audit.csv": {
+    "bytes": 11482,
+    "sha256": "10c2119930dc6af0a753cb90b5b28ab519f32b46e1b71932d2de80ffbb2633de"
+  },
+  "CAPTION.md": {
+    "bytes": 1116,
+    "sha256": "481dd166bd25694932241432ba5bdbaa62ff99c767fcdb8a98554e7949b8c4e0"
+  },
+  "displayed_classes.csv": {
+    "bytes": 1349,
+    "sha256": "280a97783f3b4c800a9b9fc7f0844ed2d4aa3344ebaa4aea46e92f2ba721b088"
+  },
+  "figure_mechanism_case.pdf": {
+    "bytes": 97104,
+    "sha256": "2a98734317ba21fd1fd2124706a86dee926989a63a3846a47f36117bdc8c70ee"
+  },
+  "figure_mechanism_case.png": {
+    "bytes": 679704,
+    "sha256": "c316ccab7b9bd25f40a6bc6085b422adea2ea0569040876b59b069f55581c0d4"
+  },
+  "plot_data.json": {
+    "bytes": 456021,
+    "sha256": "8193751e5491096c4784365c85d6eafdedf1245b2234a3a212f7d8835dc29125"
+  },
+  "plot_final_mechanism_case.py": {
+    "bytes": 24760,
+    "sha256": "993007f4e501bf5ab6e6be72c9966879d0cc29fe3b72319d0edfbb0f45e2b29c"
+  },
+  "QA.json": {
+    "bytes": 651,
+    "sha256": "f6cbad83c9478a02c93e7a931c6b2fffb4d68fa555716a7c80e1280cfcbc5427"
+  },
+  "README.md": {
+    "bytes": 7023,
+    "sha256": "b3d5a464e392064f76ae534a63e245b5632ee816f518a43b55bcba1c0d53f305"
+  },
+  "selected_case_raw.csv": {
+    "bytes": 25175,
+    "sha256": "740ee43ba439c8c01a660856d647c47e4092b4e7e3462e41e447aba808119fd1"
+  },
+  "selected_case_semantic_evidence.csv": {
+    "bytes": 46764,
+    "sha256": "d16c1a8c5343af2a60202bb3436985ec9f6fffeb0d2083c79e43727edff1f269"
+  },
+  "selected_case_share_shift.csv": {
+    "bytes": 2519,
+    "sha256": "3e6fbb858dec146a8590f2dbc2de016517dab3031de1ce636736c99887608070"
+  },
+  "selected_case_source_scores.csv": {
+    "bytes": 411,
+    "sha256": "1cbbfa1158f2b95c6519e7b13104459abdfd2c22f899db96b2b3858a64a41ffd"
+  },
+  "selected_case_utility.csv": {
+    "bytes": 638,
+    "sha256": "eb0cdf3a2f9bbb49fcfbe428558c8584cee8ffe86f66df547aa7c44ced4d2695"
+  },
+  "tests.log": {
+    "bytes": 100,
+    "sha256": "e3efff56d786494f28c6951465233882c59bd071d972193c9720788ba10b97da"
+  }
+}

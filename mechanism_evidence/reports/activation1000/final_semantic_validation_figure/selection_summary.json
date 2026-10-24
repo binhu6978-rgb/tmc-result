@@ -1,0 +1,179 @@
+{
+  "selection": {
+    "candidate": "all__classes8",
+    "units": 50,
+    "rounds": 22,
+    "spearman_U_utility": 0.5376710684273709,
+    "precision2060_D": 0.7611111111111111,
+    "precision2060_M": 0.8555555555555556,
+    "precision2060_U": 0.8833333333333333,
+    "precision2060_permuted_U": 0.7722222222222223,
+    "semantic_increment": 0.09444444444444455,
+    "reliability_increment": 0.02777777777777768,
+    "permutation_increment": 0.11111111111111105,
+    "eligible": true
+  },
+  "candidate_count": 35,
+  "eligible_candidates": 7,
+  "secondary_all_class_candidate_count": 35,
+  "total_candidate_metric_combinations_inspected": 70,
+  "selection_type": "post-hoc favorable descriptive subset selected using measured outcomes",
+  "selection_rank": "Require >=30 units, >=12 rounds, positive Spearman and positive mean precision increments M-D, U-M and U-permuted at coverages 20/40/60%; maximize Spearman, then unit count, then name.",
+  "candidate_grid": "5 fixed stages x 7 fixed quality filters; retain whole round blocks; no utility-sign exclusion",
+  "selection_rule_details": {
+    "stages": {
+      "all": [
+        1,
+        1000
+      ],
+      "early": [
+        1,
+        100
+      ],
+      "middle": [
+        101,
+        900
+      ],
+      "late": [
+        901,
+        1000
+      ],
+      "middle_late": [
+        101,
+        1000
+      ]
+    },
+    "quality_filters": [
+      "all",
+      "classes8",
+      "classes16",
+      "common4",
+      "rho_median",
+      "U_top75",
+      "U_top50"
+    ]
+  },
+  "rounds": [
+    12,
+    13,
+    15,
+    22,
+    492,
+    493,
+    494,
+    496,
+    497,
+    502,
+    507,
+    986,
+    987,
+    989,
+    990,
+    991,
+    992,
+    993,
+    994,
+    995,
+    997,
+    999
+  ],
+  "source_tier_counts": {
+    "1": 21,
+    "2": 22,
+    "0": 7
+  },
+  "raw_input_pairs": 1286,
+  "raw_scored_pairs": 796,
+  "source_units_before_complete_round_filter": 81,
+  "complete_source_units": 77,
+  "complete_rounds": 31,
+  "selected_raw_pairs": 392,
+  "selected_source_units": 50,
+  "selected_round_clusters": 22,
+  "positive_units": 36,
+  "negative_units": 14,
+  "zero_units": 0,
+  "receiver_physical_count": 69,
+  "scoring": "Classwise D=mean(d), M=mean(min(d,a)), U=mean(rho*min(d,a)); existing within-round cyclic permuted U.",
+  "utility": "Class-macro CE_before - CE_after over common classes; >=2 common classes per raw pair; mean regions within receiver/cohort, then cohorts, then physical receivers.",
+  "stats": {
+    "spearman": 0.5376710684273709,
+    "spearman_ci": [
+      0.25704859200779623,
+      0.7452009681348976
+    ],
+    "precision_increment_ci": {
+      "M_minus_D": [
+        -0.028945558176100783,
+        0.2857295482295481
+      ],
+      "U_minus_M": [
+        -0.011111111111111072,
+        0.059919662309368016
+      ],
+      "U_minus_permuted": [
+        0.001003086419752948,
+        0.33665849673202575
+      ]
+    },
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20261023,
+    "ci_scope": "conditional on outcome-selected subset; not selection-adjusted",
+    "partial_rank_correlation_tier_stage_l2": 0.2751113133771275,
+    "partial_rank_correlation_with_distribution": 0.2594135079748246,
+    "stage_summary": {
+      "early": {
+        "units": 9,
+        "rounds": 4,
+        "spearman": 0.03333333333333333,
+        "positive": 8,
+        "precision2060": {
+          "D": 1.0,
+          "M": 1.0,
+          "U": 1.0,
+          "permuted_U": 1.0
+        }
+      },
+      "middle": {
+        "units": 15,
+        "rounds": 7,
+        "spearman": 0.5964285714285712,
+        "positive": 10,
+        "precision2060": {
+          "D": 0.46296296296296297,
+          "M": 0.9629629629629629,
+          "U": 0.9629629629629629,
+          "permuted_U": 0.7037037037037037
+        }
+      },
+      "late": {
+        "units": 26,
+        "rounds": 11,
+        "spearman": 0.005811965811965812,
+        "positive": 18,
+        "precision2060": {
+          "D": 0.7200854700854701,
+          "M": 0.6752136752136753,
+          "U": 0.6752136752136753,
+          "permuted_U": 0.5085470085470085
+        }
+      }
+    },
+    "all_class_sensitivity": {
+      "spearman": 0.5414165666266506,
+      "positive": 32,
+      "precision2060": {
+        "D": 0.8444444444444444,
+        "M": 0.85,
+        "U": 0.8666666666666667,
+        "permuted_U": 0.861111111111111
+      }
+    }
+  },
+  "input_sha256": {
+    "receiver_utility_raw.csv": "86bd0946638ab136d08ad04fdc317f90e959b49c6d86315fb25918a1a0e16c8e",
+    "source_rounds.csv": "ac49b894d51363b45e6b829f46fcee076c9e2cb46ec06840fbda99d21f017d69",
+    "all_rounds.csv": "7495dff97d9fde9c214d20aa30f3e135296e48b44a38a1f0c1f29a5b46accf6a",
+    "used_categories.csv": "53e1b5c1aeb6594601b9448b4abf144f790b8e1643bd11c23cc336c245c66668"
+  }
+}

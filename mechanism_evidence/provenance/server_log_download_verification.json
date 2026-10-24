@@ -1,0 +1,26 @@
+[
+  {
+    "file": "active/training/a07/active_1000_seed1/iv_e_rounds.jsonl",
+    "bytes": 26037503,
+    "sha256": "0a51bfe73a668588b8c696ba955e2cd33e82b4ca787e3a37429cba0e5d5d6e67",
+    "matches_original_completed_run_index": true
+  },
+  {
+    "file": "active/training/a07/active_1000_seed1/method_diagnostics.csv",
+    "bytes": 98369925,
+    "sha256": "127ded948046b1f026f653c7eb8bd2be649c090ba9e9f6a99adf9c0d7485b4c5",
+    "matches_original_completed_run_index": true
+  },
+  {
+    "file": "active/training/a07/active_1000_seed1/semantic_v2_rounds.jsonl",
+    "bytes": 235505167,
+    "sha256": "dd82f765fe76d40c214846b8d41f005929a28f335602f2a47584b509a22e339d",
+    "matches_original_completed_run_index": true
+  },
+  {
+    "file": "active/training/a07/active_1000_seed1/source_weights_each_round.jsonl",
+    "bytes": 117341051,
+    "sha256": "7aca481d618dd8703a34cd66cf7a2d6f244324014163b0e7b3cf47dd88c4e7df",
+    "matches_original_completed_run_index": true
+  }
+]

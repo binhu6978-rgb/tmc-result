@@ -1,0 +1,24 @@
+[
+  {
+    "run_id": "v2_active1000_seed1",
+    "path": "checkpoints/published_full_states/v2_active1000_seed1_final_full.pt",
+    "source_checkpoint": "runs/semantic_a07_v2_activation1000_seed1_20261023/active/training/a07/active_1000_seed1/recovery_latest.pt",
+    "round": 1000,
+    "sha256": "90b5e468c0bb9bdf09ef45fae72610c17d8a6959162314caf4ad9eb75b71e41f",
+    "tensor_state_sha256": "d0aa6a96a4ce561a3905630a8747b86c7fb12a75c718c971de0f7a1df8fa3f56",
+    "source_tensor_equality_verified": true,
+    "selection": "All three final states; not selected by test score",
+    "contents": "Full tensor state_dict only; no raw images, sample plans, Memory, RNG or private paths",
+    "tensor_count": 65,
+    "parameter_numel": 11424356,
+    "dtypes": [
+      "torch.float32"
+    ],
+    "classifier_shape": [
+      100,
+      512
+    ],
+    "available": "WITHHELD_USER_REQUEST",
+    "reason": "Latest user instruction: do not upload model weights; hashes retained only"
+  }
+]
